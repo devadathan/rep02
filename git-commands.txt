@@ -27,3 +27,7 @@ eval "$(ssh-agent -s)"
  git branch
  git checkout  Test-Branch
  git branch
+git checkout master
+git pull
+git branch -d Test-Branch
+
