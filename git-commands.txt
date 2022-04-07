@@ -20,3 +20,10 @@ eval "$(ssh-agent -s)"
  git remote -v
  git push origin master
 
+ git branch
+ git checkout -b Test-Branch
+ git branch
+ git checkout master
+ git branch
+ git checkout  Test-Branch
+ git branch
